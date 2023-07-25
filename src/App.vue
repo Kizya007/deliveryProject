@@ -1,15 +1,19 @@
 <template>
   <MainHeader />
+  <MainCategory />
 </template>
 
 <script>
 import MainHeader from '@/components/MainHeader.vue'
 import './assets/global.scss'
+import MainCategory from '@/components/MainCategory.vue'
+
 
 export default {
   name: 'App',
   components: {
-    MainHeader
+    MainHeader,
+    MainCategory
   }
 }
 </script>

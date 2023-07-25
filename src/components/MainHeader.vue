@@ -1,40 +1,53 @@
 <template>
-    <header>
-        <img src="@/assets/efood.png" alt="">
-        <ul class="navigation">
-            <a href="">
-                <li>Home</li>
-            </a>
-            <a href="">
-                <li>Service</li>
-            </a>
-            <a href="">
-                <li>Top cities</li>
-            </a>
-            <a href="">
-                <li>Contract</li>
-            </a>
-            <li>
-                <SearchIcon />
-            </li>
-            <li>
-                <BasketIcon />
-            </li>
-            <a href="">
-                <li>
-                    Sign Up
+    <header class="container">
+        <div class="navigation">
+            <img src="@/assets/efood.png" alt="">
+            <ul class="navigation-list">
+                <a href="">
+                    <li class="navigation-list__item">Home</li>
+                </a>
+                <a href="">
+                    <li class="navigation-list__item">Service</li>
+                </a>
+                <a href="">
+                    <li class="navigation-list__item">Top cities</li>
+                </a>
+                <a href="">
+                    <li class="navigation-list__item">Contact</li>
+                </a>
+                <li class="navigation-list__item">
+                    <SearchIcon />
                 </li>
+                <li class="navigation-list__item">
+                    <BasketIcon />
+                    <span class="navigation-list__item-count">4</span>
+                </li>
+            </ul>
+            <a class="navigation-link" href="">
+                Sign Up
             </a>
-        </ul>
+        </div>
+        <div class="content">
+            <div class="content-text">
+                <h1 class="content-text__title">Super fast Food
+                    delivery service</h1>
+                <p class="content-text__subtitle">We provide super fast-delivery service. Let’s use our services right now
+                    and get discounts of up to 50%
+                </p>
+                <div class="block-links">
+                    <a class="block-links__left" href="">
+                        Explore Food
+                    </a>
+                    <a class="block-links__right" href="">Download App
+                    </a>
+                </div>
+            </div>
+            <div class="content-img">
+                <img src="@/assets/ScooterGuy.png" alt="">
+            </div>
+        </div>
     </header>
 </template>
-
-
-<style lang="scss" scoped >
-    .navigation {
-        display: flex;
-    }
-</style>
 
 <script>
 import SearchIcon from '@/assets/icon/SearchIcon.vue';
@@ -49,3 +62,8 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped >
+@import '@/assets/Header.scss';
+</style>
+
