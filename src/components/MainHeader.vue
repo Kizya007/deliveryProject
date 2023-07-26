@@ -1,7 +1,7 @@
 <template>
     <header class="container">
         <div class="navigation">
-            <img src="@/assets/efood.png" alt="">
+            <img src="@/assets/png/efood.png" alt="">
             <ul class="navigation-list">
                 <a href="">
                     <li class="navigation-list__item">Home</li>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="content-img">
-                <img src="@/assets/ScooterGuy.png" alt="">
+                <img src="@/assets/png/ScooterGuy.png" alt="">
             </div>
         </div>
     </header>

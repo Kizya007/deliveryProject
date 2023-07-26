@@ -1,0 +1,179 @@
+.category {
+  background-color: #f8f6fa;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-title {
+    margin-top: 95px;
+    margin-bottom: 55px;
+
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  &-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 39px;
+
+    &__product {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 8px;
+      background: #fff;
+
+      width: 210px;
+      height: 70px;
+
+      cursor: pointer;
+      svg {
+        fill: #363853;
+
+        margin-right: 9px;
+      }
+      &:hover {
+        svg {
+          fill: #fff;
+        }
+        color: #fff;
+      }
+    }
+
+    &__product:hover {
+      border-radius: 8px;
+      background: #ff7a50;
+
+      box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    }
+    &__product:not(:nth-child(5)) {
+      margin-right: 26px;
+    }
+  }
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-left {
+      cursor: pointer;
+      svg {
+        fill: #d1d2dc;
+      }
+      :hover {
+        fill: #ff7a50;
+      }
+    }
+
+    &-right {
+      cursor: pointer;
+
+      svg {
+        fill: #d1d2dc;
+      }
+      :hover {
+        fill: #ff7a50;
+      }
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-right: 15px;
+      margin-left: 25px;
+
+      &__item {
+        width: 12px;
+        height: 12px;
+
+        border-radius: 50%;
+
+        margin-right: 10px;
+
+        background-color: #d1d2db;
+
+        cursor: pointer;
+      }
+      &__item:hover {
+        background-color: #ff7a50;
+
+        transform: scale(1.2);
+        transition: 0.5s;
+      }
+    }
+  }
+}
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-card {
+    width: 208px;
+    height: 301px;
+
+    border-radius: 12px;
+
+    background-color: #fff;
+
+    margin-bottom: 40px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+
+    &__img {
+      height: 148px;
+    }
+    &__rating {
+      cursor: pointer;
+    }
+    &__name {
+      margin-top: 25px;
+
+      font-family: Rubik;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__price {
+      margin-top: 9px;
+      margin-bottom: 11px;
+
+      font-family: Rubik;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    &__btn {
+      border: none;
+      border-radius: 2px;
+
+      padding: 7px 13px 7px 13px;
+
+      cursor: pointer;
+
+      background-color: #ff7a50;
+      color: #fff;
+    }
+  }
+  &-card:not(:nth-child(5)) {
+    margin-right: 29px;
+  }
+  &-card:hover {
+    transform: scale(1.2);
+  }
+}
