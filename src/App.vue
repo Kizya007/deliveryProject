@@ -2,6 +2,7 @@
   <MainHeader />
   <MainCategory />
   <SeeMore />
+  <TopFood />
 </template>
 
 <script>
@@ -9,6 +10,7 @@ import MainHeader from '@/components/MainHeader.vue'
 import './assets/global.scss'
 import MainCategory from '@/components/MainCategory.vue'
 import SeeMore from './components/SeeMore.vue'
+import TopFood from './components/TopFood.vue'
 
 
 export default {
@@ -17,6 +19,7 @@ export default {
     MainHeader,
     MainCategory,
     SeeMore,
+    TopFood,
   }
 }
 </script>
