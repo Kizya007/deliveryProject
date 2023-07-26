@@ -1,19 +1,22 @@
 <template>
   <MainHeader />
   <MainCategory />
+  <SeeMore />
 </template>
 
 <script>
 import MainHeader from '@/components/MainHeader.vue'
 import './assets/global.scss'
 import MainCategory from '@/components/MainCategory.vue'
+import SeeMore from './components/SeeMore.vue'
 
 
 export default {
   name: 'App',
   components: {
     MainHeader,
-    MainCategory
+    MainCategory,
+    SeeMore,
   }
 }
 </script>
