@@ -1,0 +1,78 @@
+.subscribe {
+  background-color: #ff7a50;
+  &-title {
+    color: #fff;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-bottom: 12px;
+    margin-top: 59px;
+  }
+  &-subtitle {
+    color: #fff;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    opacity: 0.800000011920929;
+
+    margin-bottom: 32px;
+  }
+  &-block {
+    margin-bottom: 50px;
+
+    position: relative;
+    &__input {
+      border: none;
+
+      padding: 25px 588px 25px 43px;
+
+      border-radius: 70px;
+      background: #fff;
+      box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+
+      text-align: center;
+      font-family: Rubik;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+    }
+    &__btn {
+      position: absolute;
+      right: 18%;
+      top: 14%;
+
+      cursor: pointer;
+
+      padding: 15px 34px 15px 48px;
+
+      border-radius: 70px;
+      border: none;
+
+      background-color: #ff7a50;
+
+      color: #fff;
+      text-align: center;
+      font-family: Rubik;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px;
+      svg {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+.container {
+    border-radius: 40px;
+}

@@ -1,0 +1,78 @@
+.reviews {
+  display: flex;
+  align-items: center;
+  &-title {
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+    margin-bottom: 67px;
+  }
+  &-img {
+    margin-right: 114px;
+    margin-bottom: 125px;
+  }
+  &-text {
+    &__rating {
+      text-align: start;
+
+      font-family: Rubik;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 45px; /* 225% */
+      letter-spacing: 0.5px;
+
+      width: 573px;
+
+      margin-bottom: 73px;
+    }
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-person {
+      font-family: Rubik;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+
+      color: #ff7a50;
+
+      margin-bottom: 18px;
+
+      &__name {
+      }
+
+      &__position {
+        color: #aaa;
+        font-family: Rubik;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        margin-top: 18px;
+
+        text-align: start;
+      }
+    }
+    &-slider {
+      display: flex;
+      &__left {
+        cursor: pointer;
+
+        margin-right: 44px;
+      }
+      &__right {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -3,6 +3,10 @@
   <MainCategory />
   <SeeMore />
   <TopFood />
+  <MobileDownload />
+  <ReviewsRating />
+  <MainSubcribe />
+  <MainFooter />
 </template>
 
 <script>
@@ -11,6 +15,10 @@ import './assets/global.scss'
 import MainCategory from '@/components/MainCategory.vue'
 import SeeMore from './components/SeeMore.vue'
 import TopFood from './components/TopFood.vue'
+import MobileDownload from './components/MobileDownload.vue'
+import ReviewsRating from './components/ReviewsRating.vue'
+import MainSubcribe from './components/MainSubcribe.vue'
+import MainFooter from './components/MainFooter.vue'
 
 
 export default {
@@ -20,6 +28,10 @@ export default {
     MainCategory,
     SeeMore,
     TopFood,
+    MobileDownload,
+    ReviewsRating,
+    MainSubcribe,
+    MainFooter
   }
 }
 </script>
