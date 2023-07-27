@@ -21,13 +21,17 @@
           <img src="@/assets/png/Sosmed.png" alt="" />
         </li>
       </ul>
-      <ul class="right-block">
-        <li class="right-block__title">Service</li>
-        <li class="right-block__text">How it Works</li>
-        <li class="right-block__text">Home delivery</li>
-        <li class="right-block__text">Products</li>
-        <li class="right-block__text">Menu</li>
-      </ul>
+      <!-- right-block = list -->
+      <div class="cont">
+        <h3 class="right-block__title">Service</h3>
+        <ul class="right-block">
+          <li class="right-block__text">How it Works</li>
+          <li class="right-block__text">Home delivery</li>
+          <li class="right-block__text">Products</li>
+          <li class="right-block__text">Menu</li>
+        </ul>
+      </div>
+
       <ul class="right-block">
         <li class="right-block__title">Company</li>
         <li class="right-block__text">About Us</li>
