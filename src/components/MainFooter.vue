@@ -19,38 +19,36 @@
           <img src="@/assets/png/Sosmed.png" alt="" />
         </li>
       </ul>
-      <!-- right-block = list -->
-      <div class="cont">
-        <h3 class="right-block__title">Service</h3>
-        <ul class="right-block">
-          <li class="right-block__text">How it Works</li>
-          <li class="right-block__text">Home delivery</li>
-          <li class="right-block__text">Products</li>
-          <li class="right-block__text">Menu</li>
+      <div class="lists">
+        <ul class="list">
+          <p class="list-title">Service</p>
+          <li class="list-item"><a href="">How it Works</a></li>
+          <li class="list-item"><a href="">Home delivery</a></li>
+          <li class="list-item"><a href="">Products</a></li>
+          <li class="list-item"><a href="">Menu</a></li>
+        </ul>
+        <ul class="list">
+          <p class="list-title"><a href="">Company</a></p>
+          <li class="list-item"><a href="">About Us</a></li>
+          <li class="list-item"><a href="">News</a></li>
+          <li class="list-item"><a href="">Our trusted partner</a></li>
+          <li class="list-item"><a href="">New users FAQ</a></li>
+        </ul>
+        <ul class="list">
+          <p class="list-title"><a href="">Supports</a></p>
+          <li class="list-item"><a href="">Help Center</a></li>
+          <li class="list-item"><a href="">Feedback</a></li>
+          <li class="list-item"><a href="">Contact us</a></li>
+          <li class="list-item"><a href="">Terms conditions</a></li>
+        </ul>
+        <ul class="list">
+          <p class="list-title"><a href="">Resources</a></p>
+          <li class="list-item"><a href="">Download app</a></li>
+          <li class="list-item"><a href="">Blog</a></li>
+          <li class="list-item"><a href="">What's new</a></li>
+          <li class="list-item"><a href="">Sitemap</a></li>
         </ul>
       </div>
-
-      <ul class="right-block">
-        <li class="right-block__title">Company</li>
-        <li class="right-block__text">About Us</li>
-        <li class="right-block__text">News</li>
-        <li class="right-block__text">Our trusted partner</li>
-        <li class="right-block__text">New users FAQ</li>
-      </ul>
-      <ul class="right-block">
-        <li class="right-block__title">Supports</li>
-        <li class="right-block__text">Help Center</li>
-        <li class="right-block__text">Feedback</li>
-        <li class="right-block__text">Contact us</li>
-        <li class="right-block__text">Terms conditions</li>
-      </ul>
-      <ul class="right-block">
-        <li class="right-block__title">Resources</li>
-        <li class="right-block__text">Download app</li>
-        <li class="right-block__text">Blog</li>
-        <li class="right-block__text">What's new</li>
-        <li class="right-block__text">Sitemap</li>
-      </ul>
     </div>
     <div class="line"></div>
     <div class="privacy">
