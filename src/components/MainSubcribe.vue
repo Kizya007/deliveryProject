@@ -9,7 +9,7 @@
       <input
         class="subscribe-block__input"
         type="text"
-        value="Enter your email addres"
+        placeholder="Enter your email addres"
       />
       <button class="subscribe-block__btn">
         <EmailSend />

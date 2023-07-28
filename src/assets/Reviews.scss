@@ -16,7 +16,6 @@
   }
   &-info {
     display: flex;
-    align-items: center;
     justify-content: center;
 
     &__img {
@@ -30,6 +29,7 @@
     }
     .text {
       &-rating {
+        margin-top: 70px;
         text-align: start;
 
         font-family: "Rubik";
