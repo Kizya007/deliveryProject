@@ -2,9 +2,7 @@
   <footer>
     <div class="content">
       <ul class="content-block">
-        <li class="content-block__img">
-          <img src="@/assets/png/efood.png" alt="" />
-        </li>
+        <li class="content-block__title">Efood</li>
         <li class="content-block__info">
           <PointIcon />
           Dhaka, Bangladesh

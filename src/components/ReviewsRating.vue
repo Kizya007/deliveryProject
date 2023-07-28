@@ -1,20 +1,20 @@
 <template>
     <div class="reviews container">
-        <h1 class="reviews-title">
-            What Our Client Are Saying
-        </h1>
-        <div class="reviews">
-            <div class="reviews-img">
+        <p class="reviews-title">
+            What Our Client Are <span class="color-text" >Saying</span>
+        </p>
+        <div class="reviews-info">
+            <div class="reviews-info__img">
                 <img src="@/assets/png/Reviews.png" alt="">
             </div>
-            <div class="reviews-text">
-                <p class="reviews-text__rating">
-                    “ EFood has the most intriguing food order system in the country. UI in both their app and
+            <div class="text">
+                <p class="text-rating">
+                    <span class="quotes-one">“</span> EFood has the most intriguing food order system in the country. UI in both their app and
                     web Is very
                     simple
                     and easy to use, enhancing the UX. Their delivery men are also quite professional and knows the
                     neighborhood
-                    well. Till now I never had to guide them to my address for delivery“
+                    well. Till now I never had to guide them to my address for delivery <span class="quotes-two">“</span>
                 </p>
                 <div class="info">
                     <div class="info-person">

@@ -1,10 +1,10 @@
 <template>
-    <div class="delivery" >
+    <div class="delivery container" >
         <div class="delivery-img">
             <img src="@/assets/png/foodDelivery.png" alt="">
         </div>
         <div class="delivery-text">
-            <p class="delivery-text__title">Stay at home, we will Provide good food</p>
+            <p class="delivery-text__title"> <span class="color-text">Stay</span> at home, we will Provide <span class="color-text">good food</span></p>
             <p class="delivery-text__subtitle">We provide tasty food and superfast delivery at your home. Let’s use our
                 services right now and get discounts
                 of up to 50%.</p>

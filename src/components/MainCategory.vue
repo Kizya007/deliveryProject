@@ -1,6 +1,6 @@
 <template>
     <div class="category container">
-        <h1 class="category-title">Our popular Category </h1>
+        <p class="category-title">Our popular <span class="color-text">Category</span></p>
         <ul class="category-type">
             <li class="category-type__product">
                 <BurgerIcon /> Burger
@@ -9,7 +9,7 @@
                 <PizzaIcon /> Pizza
             </li>
             <li class="category-type__product">
-                <SandwichIcon /> sandwich
+                <SandwichIcon /> Sandwich
             </li>
             <li class="category-type__product">
                 <AsianIcon /> Asian Food

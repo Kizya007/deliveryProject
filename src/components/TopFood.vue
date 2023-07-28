@@ -1,6 +1,6 @@
 <template>
     <div class="food container">
-        <h1 class="food-title">Top Food restaurant</h1>
+        <p class="food-title">Top Food <span class="color-text">restaurant</span></p>
         <ul class="cards">
             <li class="cards-list">
                 <div class="cards-list__img">

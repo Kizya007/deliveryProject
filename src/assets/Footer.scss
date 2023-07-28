@@ -15,10 +15,22 @@ footer {
       display: flex;
       flex-direction: column;
 
-      &__img {
-        width: 106px;
+      &__title {
+        display: inline-block;
+
+        font-family: "Rubik";
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.65px;
 
         margin-bottom: 8px;
+
+        text-align: start;
+      }
+      &__title::first-letter {
+        color: #ff6838;
       }
 
       &__image {
@@ -49,7 +61,6 @@ footer {
       margin-right: 99px;
 
       &__title {
-       
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
@@ -59,7 +70,7 @@ footer {
 
       &__text {
         color: var(--primary, #37383d);
-       
+
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -88,7 +99,7 @@ footer {
 
     &-info {
       color: var(--medium-dark, #646464);
-     
+
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
@@ -102,7 +113,7 @@ footer {
         margin-right: 51px;
 
         color: var(--medium-dark, #646464);
-       
+
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
