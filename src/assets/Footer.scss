@@ -107,3 +107,132 @@
     }
   }
 }
+
+@media screen and (max-width: 1132px) {
+  footer {
+    .content {
+      &-block {
+        &__title {
+        }
+        &__info {
+        }
+        &__image {
+        }
+      }
+      .lists {
+        max-width: 100%;
+        .list {
+          margin-right: 30px;
+          &-title {
+          }
+          &-item {
+          }
+        }
+      }
+    }
+    .privacy {
+      max-width: 100%;
+      &-info {
+      }
+      &-list {
+        &__item {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    .content {
+      &-block {
+        margin-right: 50px;
+        &__title {
+        }
+        &__info {
+        }
+        &__image {
+        }
+      }
+      .lists {
+        max-width: 100%;
+        .list {
+          margin-right: 30px;
+          &-title {
+          }
+          &-item {
+            letter-spacing: 0;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+    .privacy {
+      max-width: 100%;
+      &-info {
+      }
+      &-list {
+        &__item {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    .content {
+      flex-direction: column;
+
+      text-align: center;
+      &-block {
+
+        text-align: center;
+
+        margin: 0;
+        &__title {
+        }
+        &__info {
+        }
+        &__image {
+        }
+      }
+      .lists {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        max-width: 100%;
+        .list {
+          margin-right: 30px;
+          &-title {
+          }
+          &-item {
+            display: none;
+
+            letter-spacing: 0;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+    .privacy {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+
+      max-width: 100%;
+      &-info {
+        margin-bottom: 20px;
+      }
+      &-list {
+        margin-bottom: 20px;
+
+        &__item {
+          margin: 10px;
+        }
+      }
+    }
+  }
+}

@@ -25,7 +25,6 @@
           <li class="list-item"><a href="">How it Works</a></li>
           <li class="list-item"><a href="">Home delivery</a></li>
           <li class="list-item"><a href="">Products</a></li>
-          <li class="list-item"><a href="">Menu</a></li>
         </ul>
         <ul class="list">
           <p class="list-title"><a href="">Company</a></p>

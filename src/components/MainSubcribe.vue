@@ -11,7 +11,7 @@
         type="text"
         placeholder="Enter your email addres"
       />
-      <button class="subscribe-block__btn">
+      <button class="subscribe-block__btn" v-on:click="handleClick">
         <EmailSend />
         Subscribe
       </button>
@@ -24,6 +24,12 @@ import EmailSend from "@/assets/icon/EmailSend.vue";
 
 export default {
   name: "MainSubcribe",
+
+  methods: {
+    handleClick() {
+      console.log(1);
+    },
+  },
 
   components: {
     EmailSend,

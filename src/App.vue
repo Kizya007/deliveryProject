@@ -11,9 +11,9 @@
 </template>
 
 <script>
+import "./assets/global.scss";
 import MainHeader from "@/components/MainHeader.vue";
 import BannerInfo from "./components/BannerInfo.vue";
-import "./assets/global.scss";
 import MainCategory from "@/components/MainCategory.vue";
 import SeeMore from "./components/SeeMore.vue";
 import TopFood from "./components/TopFood.vue";
@@ -24,6 +24,7 @@ import MainFooter from "./components/MainFooter.vue";
 
 export default {
   name: "App",
+
   components: {
     MainHeader,
     BannerInfo,

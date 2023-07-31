@@ -26,7 +26,6 @@
       </ul>
     </nav>
     <a class="link" href=""> Sign Up </a>
-    <!-- /content вынести в отдельный компонент -->
   </header>
 </template>
 
