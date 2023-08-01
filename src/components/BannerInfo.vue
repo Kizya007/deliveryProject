@@ -9,7 +9,7 @@
         and get discounts of up to 50%
       </p>
       <div class="block-links">
-        <a class="block-links__left" href=""> Explore Food </a>
+        <button class="block-links__left" href="" v-on:click="handleClick"> Explore Food </button>
         <a class="block-links__right" href="">Download App </a>
       </div>
     </div>
@@ -22,6 +22,12 @@
 <script>
 export default {
   name: "BannerInfo",
+
+  methods: {
+    handleClick() {
+      console.log(1);
+    },
+  },
 
   components: {},
 };

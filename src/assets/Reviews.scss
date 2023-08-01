@@ -19,12 +19,14 @@
     justify-content: center;
 
     &__img {
+      width: 433.38px;
+      height: 519.59px;
+
       margin-right: 68px;
       margin-bottom: 125px;
 
       img {
-        width: 433.38px;
-        height: 519.59px;
+        max-width: 100%;
       }
     }
     .text {
@@ -112,7 +114,8 @@
       margin-bottom: 50px;
 
       &__img {
-        display: none;
+        width: 300px;
+        height: 300px;
       }
     }
     .text {

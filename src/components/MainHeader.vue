@@ -25,7 +25,7 @@
         </li>
       </ul>
     </nav>
-    <a class="link" href=""> Sign Up </a>
+    <button class="btn" href="" v-on:click="handleClick">Sign Up</button>
   </header>
 </template>
 
@@ -35,6 +35,12 @@ import BasketIcon from "@/assets/icon/BasketIcon.vue";
 
 export default {
   name: "MainHeader",
+
+  methods: {
+    handleClick() {
+      console.log(1);
+    },
+  },
 
   components: {
     SearchIcon,

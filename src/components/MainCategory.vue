@@ -11,7 +11,7 @@
       <li class="category-type__product"><SetMenuIcon /> Set Menu</li>
     </ul>
     <ul class="products">
-      <li class="products-card">
+      <!-- <li class="products-card">
         <div class="products-card__img">
           <img src="@/assets/png/cheeseBurger.png" alt="" />
         </div>
@@ -24,7 +24,9 @@
         </div>
         <p class="products-card__name">Cheeseburger With Salad</p>
         <p class="products-card__price">$18.00</p>
-        <button class="products-card__btn" v-on:click="handleClick">Add to Cart</button>
+        <button class="products-card__btn" v-on:click="handleClick">
+          Add to Cart
+        </button>
       </li>
       <li class="products-card">
         <div class="products-card__img">
@@ -56,7 +58,9 @@
         </div>
         <p class="products-card__name">Cheeseburger With Salad</p>
         <p class="products-card__price">$18.00</p>
-        <button class="products-card__btn" v-on:click="handleClick">Add to Cart</button>
+        <button class="products-card__btn" v-on:click="handleClick">
+          Add to Cart
+        </button>
       </li>
       <li class="products-card">
         <div class="products-card__img">
@@ -71,7 +75,9 @@
         </div>
         <p class="products-card__name">Cheeseburger With Salad</p>
         <p class="products-card__price">$18.00</p>
-        <button class="products-card__btn" v-on:click="handleClick">Add to Cart</button>
+        <button class="products-card__btn" v-on:click="handleClick">
+          Add to Cart
+        </button>
       </li>
       <li class="products-card">
         <div class="products-card__img">
@@ -86,11 +92,13 @@
         </div>
         <p class="products-card__name">Cheeseburger With Salad</p>
         <p class="products-card__price">$18.00</p>
-        <button class="products-card__btn" v-on:click="handleClick">Add to Cart</button>
-      </li>
+        <button class="products-card__btn" v-on:click="handleClick">
+          Add to Cart
+        </button>
+      </li> -->
     </ul>
     <div class="slider">
-      <div class="slider-left">
+      <div class="slider-left" v-on:click="handleClick">
         <ArrowLeft />
       </div>
       <ul class="slider-list">
@@ -99,9 +107,20 @@
         <li class="slider-list__item"></li>
         <li class="slider-list__item"></li>
       </ul>
-      <div class="slider-right">
+      <div class="slider-right" v-on:click="handleClick">
         <ArrowRight />
       </div>
+    </div>
+    <div class="container-slider">
+      <carousel :items-to-show="2.5" :wrap-around="true">
+        <slide v-for="slide in 5" :key="slide">
+          <ProductCard />
+        </slide>
+        <template #addons>
+          <navigation />
+          <pagination />
+        </template>
+      </carousel>
     </div>
   </div>
 </template>
@@ -112,9 +131,10 @@ import BurgerIcon from "@/assets/icon/BurgerIcon.vue";
 import PizzaIcon from "@/assets/icon/PizzaIcon.vue";
 import SandwichIcon from "@/assets/icon/SandwichIcon.vue";
 import SetMenuIcon from "@/assets/icon/SetMenuIcon.vue";
-import StarIcon from "@/assets/icon/StarIcon.vue";
+// import StarIcon from "@/assets/icon/StarIcon.vue";
 import ArrowLeft from "@/assets/icon/ArrowLeft.vue";
 import ArrowRight from "@/assets/icon/ArrowRight.vue";
+import ProductCard from "./ProductCard.vue";
 
 export default {
   name: "MainCategory",
@@ -131,9 +151,10 @@ export default {
     PizzaIcon,
     SandwichIcon,
     SetMenuIcon,
-    StarIcon,
+    // StarIcon,
     ArrowLeft,
     ArrowRight,
+    ProductCard,
   },
 };
 </script>
