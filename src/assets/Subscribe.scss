@@ -81,9 +81,15 @@
 
 @media screen and (max-width: 1024px) {
   .subscribe {
+    padding: 0px 20px;
+
     &-title {
+      font-size: 30px;
+
+      margin-bottom: 20px;
     }
     &-subtitle {
+      margin-bottom: 20px;
     }
     &-block {
       &__input {
