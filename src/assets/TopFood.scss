@@ -22,10 +22,6 @@
 
     margin-bottom: 165px;
 
-    .container-slider {
-      width: 720px;
-    }
-
     &-list {
       display: flex;
       align-items: flex-start;
@@ -84,6 +80,44 @@
 
         cursor: pointer;
       }
+    }
+  }
+  .container-slider {
+    width: 720px;
+
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .food {
+    .cards {
+      justify-content: center;
+
+      &-list {
+        margin-right: 43px;
+      }
+    }
+    .container-slider {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .cards {
+      display: none;
+
+      &-list {
+      }
+    }
+    .container-slider {
+      display: block;
     }
   }
 }

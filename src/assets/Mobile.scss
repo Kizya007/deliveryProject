@@ -58,7 +58,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
   .mobile {
     display: flex;
     flex-direction: column;
@@ -75,13 +75,21 @@
 
       height: auto;
     }
+
+    &-img {
+      max-width: 100%;
+      img {
+        width: 500px;
+        height: 400px;
+      }
+    }
   }
 }
 
 @media only screen and (max-width: 768px) {
   .mobile {
     margin-bottom: 0;
-    
+
     &-text {
       max-width: 100%;
 

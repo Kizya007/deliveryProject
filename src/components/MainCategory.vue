@@ -11,7 +11,7 @@
       <li class="category-type__product"><SetMenuIcon /> Set Menu</li>
     </ul>
     <ul class="products">
-      <!-- <li class="products-card">
+      <li class="products-card">
         <div class="products-card__img">
           <img src="@/assets/png/cheeseBurger.png" alt="" />
         </div>
@@ -95,7 +95,7 @@
         <button class="products-card__btn" v-on:click="handleClick">
           Add to Cart
         </button>
-      </li> -->
+      </li>
     </ul>
     <div class="slider">
       <div class="slider-left" v-on:click="handleClick">

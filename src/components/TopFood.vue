@@ -4,7 +4,7 @@
       Top Food <span class="color-text">restaurant</span>
     </p>
     <ul class="cards">
-      <!-- <li class="cards-list">
+      <li class="cards-list">
         <div class="cards-list__img">
           <img src="@/assets/png/BlazePizza.png" alt="" />
         </div>
@@ -81,37 +81,37 @@
             <ArrowRightIcon />
           </div>
         </div>
-      </li> -->
-      <div class="container-slider">
-        <carousel :items-to-show="2.5" :wrap-around="true">
-          <slide v-for="slide in 5" :key="slide">
-            <li class="cards-list">
-              <div class="cards-list__img">
-                <img src="@/assets/png/BlazePizza.png" alt="" />
-              </div>
-              <p class="cards-list__name">Blaze Pizza</p>
-              <div class="cards-info">
-                <WatchIcon />
-                <span class="cards-info__time"> 11.00 AM - 10.00 PM </span>
-                <div class="cards-info__arrow" v-on:click="handleClick">
-                  <ArrowRightIcon />
-                </div>
-              </div>
-            </li>
-          </slide>
-          <template #addons>
-            <navigation />
-            <pagination />
-          </template>
-        </carousel>
-      </div>
+      </li>
     </ul>
+    <div class="container-slider">
+      <carousel :items-to-show="2.5" :wrap-around="true">
+        <slide v-for="slide in 5" :key="slide">
+          <li class="cards-list">
+            <div class="cards-list__img">
+              <img src="@/assets/png/BlazePizza.png" alt="" />
+            </div>
+            <p class="cards-list__name">Blaze Pizza</p>
+            <div class="cards-info">
+              <WatchIcon />
+              <span class="cards-info__time"> 11.00 AM - 10.00 PM </span>
+              <div class="cards-info__arrow" v-on:click="handleClick">
+                <ArrowRightIcon />
+              </div>
+            </div>
+          </li>
+        </slide>
+        <template #addons>
+          <navigation />
+          <pagination />
+        </template>
+      </carousel>
+    </div>
   </div>
 </template>
 
 <script>
-// import ArrowRightIcon from "@/assets/icon/ArrowRightIcon.vue";
-// import WatchIcon from "@/assets/icon/WatchIcon.vue";
+import ArrowRightIcon from "@/assets/icon/ArrowRightIcon.vue";
+import WatchIcon from "@/assets/icon/WatchIcon.vue";
 
 export default {
   name: "TopFood",
@@ -123,8 +123,8 @@ export default {
   },
 
   components: {
-    // ArrowRightIcon,
-    // WatchIcon,
+    ArrowRightIcon,
+    WatchIcon,
   },
 };
 </script>
