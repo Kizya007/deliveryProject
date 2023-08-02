@@ -112,13 +112,13 @@
       </div>
     </div>
     <div class="container-slider">
-      <carousel :items-to-show="2.5" :wrap-around="true">
+      <carousel :items-to-show="1" :wrap-around="true">
         <slide v-for="slide in 5" :key="slide">
           <ProductCard />
         </slide>
         <template #addons>
           <navigation />
-          <pagination />
+          <!-- <pagination /> -->
         </template>
       </carousel>
     </div>
@@ -131,7 +131,7 @@ import BurgerIcon from "@/assets/icon/BurgerIcon.vue";
 import PizzaIcon from "@/assets/icon/PizzaIcon.vue";
 import SandwichIcon from "@/assets/icon/SandwichIcon.vue";
 import SetMenuIcon from "@/assets/icon/SetMenuIcon.vue";
-// import StarIcon from "@/assets/icon/StarIcon.vue";
+import StarIcon from "@/assets/icon/StarIcon.vue";
 import ArrowLeft from "@/assets/icon/ArrowLeft.vue";
 import ArrowRight from "@/assets/icon/ArrowRight.vue";
 import ProductCard from "./ProductCard.vue";
@@ -151,7 +151,7 @@ export default {
     PizzaIcon,
     SandwichIcon,
     SetMenuIcon,
-    // StarIcon,
+    StarIcon,
     ArrowLeft,
     ArrowRight,
     ProductCard,

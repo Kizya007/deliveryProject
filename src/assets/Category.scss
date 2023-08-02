@@ -226,13 +226,19 @@
     }
     .products {
       display: none;
+      &-card {
+        margin: 0;
+
+        &__img {
+          width: auto;
+        }
+      }
     }
     .slider {
       display: none;
     }
     .container-slider {
       display: block;
-      width: 320px;
     }
   }
 }

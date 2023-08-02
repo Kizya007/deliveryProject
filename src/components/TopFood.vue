@@ -84,7 +84,7 @@
       </li>
     </ul>
     <div class="container-slider">
-      <carousel :items-to-show="2.5" :wrap-around="true">
+      <carousel :items-to-show="2" :wrap-around="true">
         <slide v-for="slide in 5" :key="slide">
           <li class="cards-list">
             <div class="cards-list__img">
