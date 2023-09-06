@@ -1,9 +1,12 @@
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.header {
 
   margin-bottom: 118px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   .title {
     display: inline-block;
@@ -19,10 +22,6 @@ header {
     color: #ff6838;
   }
   .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     &-list {
       display: flex;
       justify-content: space-between;
@@ -96,7 +95,7 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  header {
+  .header {
     .navigation {
       &-list {
         &__item:not(:last-child) {
@@ -108,7 +107,7 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  header {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
