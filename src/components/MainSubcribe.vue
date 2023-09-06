@@ -1,5 +1,5 @@
 <template>
-  <div class="subscribe container">
+  <section class="subscribe container">
     <p class="subscribe-title">Subscribe to get the Latest Offer</p>
     <p class="subscribe-subtitle">
       Get our daily updates by subscribing to our newspaper, please drop your
@@ -16,7 +16,7 @@
         Subscribe
       </button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

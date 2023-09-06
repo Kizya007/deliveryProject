@@ -1,5 +1,5 @@
 <template>
-  <div class="mobile container">
+  <section class="mobile container">
     <div class="mobile-text">
       <p class="mobile-text__title">
         Download Our <span class="color-text">Mobile App</span>
@@ -17,7 +17,7 @@
     <div class="mobile-img">
       <img src="@/assets/png/Mobile.png" alt="" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

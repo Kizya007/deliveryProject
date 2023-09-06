@@ -1,5 +1,5 @@
 <template>
-  <div class="reviews container">
+  <section class="reviews container">
     <p class="reviews-title">
       What Our Client Are <span class="color-text">Saying</span>
     </p>
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

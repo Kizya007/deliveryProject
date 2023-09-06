@@ -50,7 +50,7 @@
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 49px; /* 272.222% */
+        line-height: 49px;
         letter-spacing: 0.18px;
       }
       &-item {
@@ -80,7 +80,7 @@
   align-items: center;
   justify-content: space-between;
 
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 
   &-info {
@@ -104,6 +104,9 @@
       font-style: normal;
       font-weight: 400;
       line-height: 14px;
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 }
@@ -111,33 +114,15 @@
 @media screen and (max-width: 1132px) {
   footer {
     .content {
-      &-block {
-        &__title {
-        }
-        &__info {
-        }
-        &__image {
-        }
-      }
       .lists {
         max-width: 100%;
         .list {
           margin-right: 30px;
-          &-title {
-          }
-          &-item {
-          }
         }
       }
     }
     .privacy {
       max-width: 100%;
-      &-info {
-      }
-      &-list {
-        &__item {
-        }
-      }
     }
   }
 }
@@ -147,12 +132,6 @@
     .content {
       &-block {
         margin-right: 50px;
-        &__title {
-        }
-        &__info {
-        }
-        &__image {
-        }
       }
       .lists {
         max-width: 100%;
@@ -169,12 +148,6 @@
     }
     .privacy {
       max-width: 100%;
-      &-info {
-      }
-      &-list {
-        &__item {
-        }
-      }
     }
   }
 }
@@ -218,7 +191,6 @@
     }
 
     .line {
-
     }
 
     .privacy {
