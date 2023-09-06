@@ -1,32 +1,32 @@
 <template>
-  <div class="delivery container">
-    <div class="delivery-img">
+  <div class="information container">
+    <div class="information-img">
       <img src="@/assets/png/foodDelivery.png" alt="" />
     </div>
-    <div class="delivery-text">
-      <p class="delivery-text__title">
+    <div class="information-text">
+      <p class="information-text__title">
         <span class="color-text">Stay</span> at home, we will Provide
         <span class="color-text">good food</span>
       </p>
-      <p class="delivery-text__subtitle">
-        We provide tasty food and superfast delivery at your home. Let’s use our
+      <p class="information-text__subtitle">
+        We provide tasty food and superfast Delivery at your home. Let’s use our
         services right now and get discounts of up to 50%.
       </p>
-      <ul class="delivery-list">
-        <li class="delivery-list__item">
+      <ul class="information-list">
+        <li class="information-list__item">
           <TimerWatchIcon />
-          fasted delivery in 30 Minutes
+          fasted Delivery in 30 Minutes
         </li>
-        <li class="delivery-list__item">
+        <li class="information-list__item">
           <DeliveryManIcon />
-          300+ delivery men
+          300+ Delivery men
         </li>
-        <li class="delivery-list__item">
+        <li class="information-list__item">
           <ReustarantIcon />
           500+ restaurant & cafe shop
         </li>
       </ul>
-      <button class="delivery-text__btn" v-on:click="handleClick">See more</button>
+      <button class="information-text__btn" v-on:click="handleClick">See more</button>
     </div>
   </div>
 </template>
@@ -52,5 +52,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/Seemore.scss";
+@import "@/assets/MainInformaion.scss";
 </style>

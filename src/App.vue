@@ -2,7 +2,7 @@
   <MainHeader />
   <BannerInfo />
   <MainCategory />
-  <SeeMore />
+  <MainInformaion />
   <TopFood />
   <MobileDownload />
   <ReviewsRating />
@@ -15,7 +15,7 @@ import "./assets/global.scss";
 import MainHeader from "@/components/MainHeader.vue";
 import BannerInfo from "./components/BannerInfo.vue";
 import MainCategory from "@/components/MainCategory.vue";
-import SeeMore from "./components/SeeMore.vue";
+import MainInformaion from "./components/MainInformaion.vue";
 import TopFood from "./components/TopFood.vue";
 import MobileDownload from "./components/MobileDownload.vue";
 import ReviewsRating from "./components/ReviewsRating.vue";
@@ -29,7 +29,7 @@ export default {
     MainHeader,
     BannerInfo,
     MainCategory,
-    SeeMore,
+    MainInformaion,
     TopFood,
     MobileDownload,
     ReviewsRating,
