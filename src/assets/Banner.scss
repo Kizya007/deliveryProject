@@ -37,11 +37,11 @@
     }
   }
 
-  .block-links {
+  .buttons {
     display: flex;
     align-items: center;
 
-    &__left {
+    .button-left {
       text-align: center;
       font-family: "Rubik";
       font-size: 20px;
@@ -64,7 +64,7 @@
       border: none;
     }
 
-    &__right {
+    .button-right {
       text-decoration: underline;
     }
   }
@@ -77,19 +77,10 @@
     align-items: center;
     justify-content: center;
     &-text {
-      &__title {
-      }
-      &__subtitle {
-      }
-      .block-links {
+      .buttons {
         display: flex;
         align-items: center;
         justify-content: center;
-        &__left {
-        }
-
-        &__right {
-        }
       }
     }
     &-img {
@@ -120,7 +111,7 @@
 
         text-align: center;
       }
-      .block-links {
+      .buttons {
         margin-bottom: 50px;
       }
     }

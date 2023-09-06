@@ -1,5 +1,5 @@
 <template>
-  <div class="content container">
+  <section class="content container">
     <div class="content-text">
       <h1 class="content-text__title">
         Super fast <span class="color-text">Food delivery</span> service
@@ -8,15 +8,15 @@
         We provide super fast-delivery service. Let’s use our services right now
         and get discounts of up to 50%
       </p>
-      <div class="block-links">
-        <button class="block-links__left" href="" v-on:click="handleClick"> Explore Food </button>
-        <a class="block-links__right" href="">Download App </a>
+      <div class="buttons">
+        <button class="button-left" href="" v-on:click="handleClick"> Explore Food </button>
+        <a class="button-right" href="">Download App </a>
       </div>
     </div>
     <div class="content-img">
       <img src="@/assets/png/ScooterGuy.png" alt="" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
