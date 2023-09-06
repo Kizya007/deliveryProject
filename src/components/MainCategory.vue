@@ -1,5 +1,5 @@
 <template>
-  <div class="category container">
+  <section class="category container">
     <p class="category-title">
       Our popular <span class="color-text">Category</span>
     </p>
@@ -122,7 +122,7 @@
         </template>
       </carousel>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
