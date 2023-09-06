@@ -1,5 +1,5 @@
 <template>
-  <div class="information container">
+  <section class="information container">
     <div class="information-img">
       <img src="@/assets/png/foodDelivery.png" alt="" />
     </div>
@@ -28,7 +28,7 @@
       </ul>
       <button class="information-text__btn" v-on:click="handleClick">See more</button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
